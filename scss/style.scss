@@ -384,3 +384,78 @@ margin-bottom: 150px;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
+
+// footer
+.footer h2{
+  color: $brown;
+  font-size: 44px;
+  padding-bottom: 45px;
+}
+.footer__down{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+.social{
+  border: 1px solid $black;
+  padding: 20px 150px;
+  transition: all 0.2s ease-in;
+  &:hover{
+    background-color: $white;
+    opacity: 0.7;
+
+  }
+}
+
+
+
+.WhatsApp{
+  position: relative;
+  
+  &::after{
+  position: absolute;
+	content: '';
+	width: 26px;
+	height: 25px;
+	top: 15%;
+	right: 45%;
+	background-image: url('./../img/Whatsapp.svg');
+	background-repeat: no-repeat;
+	cursor: pointer;
+  }
+
+}
+.Facebook{
+  position: relative;
+  
+  &::after{
+  position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	top: 15%;
+	right: 45%;
+	background-image: url('./../img/Facebook.svg');
+	background-repeat: no-repeat;
+	cursor: pointer;
+  }
+
+}
+.Instagram{
+  position: relative;
+  
+  &::after{
+  position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	top: 15%;
+	right: 45%;
+	background-image: url('./../img/Instagram.svg');
+	background-repeat: no-repeat;
+	cursor: pointer;
+  }
+}
+
