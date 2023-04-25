@@ -433,3 +433,80 @@ main {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+.footer h2 {
+  color: #AC9382;
+  font-size: 44px;
+  padding-bottom: 45px;
+}
+
+.footer__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.social {
+  border: 1px solid #282828;
+  padding: 20px 150px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.social:hover {
+  background-color: #F6F3F3;
+  opacity: 0.7;
+}
+
+.WhatsApp {
+  position: relative;
+}
+.WhatsApp::after {
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 25px;
+  top: 15%;
+  right: 45%;
+  background-image: url("./../img/Whatsapp.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.Facebook {
+  position: relative;
+}
+.Facebook::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: 15%;
+  right: 45%;
+  background-image: url("./../img/Facebook.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.Instagram {
+  position: relative;
+}
+.Instagram::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: 15%;
+  right: 45%;
+  background-image: url("./../img/Instagram.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
