@@ -32,3 +32,13 @@ var swiper = new Swiper(".swiper-container", {
 	},
  });
 
+ const gototopButton = document.getElementById('gototop');
+
+ gototopButton.addEventListener('click', () => {
+   window.scrollTo({
+	 top: 0,
+	 behavior: 'smooth'
+   });
+ });
+ 
+
