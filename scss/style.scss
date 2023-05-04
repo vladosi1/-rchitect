@@ -581,6 +581,17 @@ main {
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #50b2867d;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #50b2867d;
+    outline: 0;
+    box-shadow: none
+}
 
 @media (min-width: 1025px) {
   .menu-btn, .menu {
@@ -1130,17 +1141,7 @@ main {
   .advantages__description p {
     width: 100%;
   }
-  .accordion-button:not(.collapsed) {
-    color: var(--bs-accordion-active-color);
-    background-color: #50b2867d;
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-}
-.accordion-button:focus {
-    z-index: 3;
-    border-color: #50b2867d;
-    outline: 0;
-    box-shadow: none
-}
+
 }
 @media (max-width: 350px) {
   .main__boxH1 {
