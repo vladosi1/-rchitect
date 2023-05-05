@@ -875,6 +875,9 @@ main {
   .footer__down a {
     margin-bottom: 25px;
   }
+  #service__descrOne {
+    padding-right: 147px;
+  }
 }
 @media (max-width: 980px) {
   .main__box {
@@ -999,6 +1002,9 @@ main {
   .advantages__description:first-child {
     padding-top: 0;
   }
+  #service__descrOne {
+    padding-right: 357px;
+  }
   .advantages_img1, .advantages_img2 {
     padding-bottom: 15px;
   }
@@ -1117,6 +1123,9 @@ main {
   .advantages h2 {
     font-size: 35px;
     margin-bottom: 25px;
+  }
+  #service__descrOne {
+    padding-right: 0px;
   }
   .advantages__item-1 {
     padding-top: 15px;
