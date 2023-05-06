@@ -1,5 +1,3 @@
-console.log("Vlad HI!");
-
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.menu');
 
